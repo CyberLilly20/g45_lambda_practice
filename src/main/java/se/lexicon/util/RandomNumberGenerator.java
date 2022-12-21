@@ -15,7 +15,7 @@ public class RandomNumberGenerator {
 	public static RandomNumberGenerator getInstance() {
 		return INSTANCE;
 	}
-	
+
 	private static final Random rng = new Random();
 	
 	public int getRandomInt(int min, int max) {
