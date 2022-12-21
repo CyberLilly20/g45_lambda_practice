@@ -22,7 +22,7 @@ public class Exercises {
                 forEach(System.out::println);
         //Write your code here
         // TODO: exercise1
-        System.out.println("----------------------");
+        System.out.println(" ---------------------- ");
     }
 
     /*

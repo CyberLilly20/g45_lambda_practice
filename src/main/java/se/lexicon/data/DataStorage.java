@@ -14,6 +14,7 @@ public interface DataStorage {
     DataStorage INSTANCE = DataStorageImpl.getInstance();
 
     List<Person> findMany(Predicate<Person> filter);
+
     Person findOne(Predicate<Person> filter);
 
 

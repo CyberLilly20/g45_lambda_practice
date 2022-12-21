@@ -13,7 +13,7 @@ import java.util.function.Predicate;
 
 
 /**
- * Create implementations for all methods. I have already provided an implementation for the first method *
+ *  Create implementations for all methods. I have already provided an implementation for the first method *
  */
 public class DataStorageImpl implements DataStorage {
 

@@ -26,7 +26,7 @@ public class CSVReader {
         BufferedReader reader = null;
         List<String> names = null;
         try{
-            reader = Files.newBufferedReader(Paths.get("firstname_males.txt"));
+            reader = Files.newBufferedReader(Paths.get(" firstname_males.txt "));
                      names = reader.lines()
                     .flatMap(line -> Stream.of(line.split(",")))
                     .collect(Collectors.toList());
